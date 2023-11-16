@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 12px;
+    margin-left: 51px;
+    font: bolder;
+}
+
+.formContent {
+    margin-left: 51px;
+}
+
+.submitBtn {
+    margin-left: 81px;
+    padding: 5px;
+}
+
+.guide {
+    display: flex;
+    margin-top: 61px;
+    flex-direction: column;
+    margin-left: 81px;
+}

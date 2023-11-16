@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator | Mandal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: grey; color: black;">
+    <h1>BMI Calculator</h1>
+    <div class="formContent">
+        <form>
+            <div class="height">
+                <label for="heightCM">Height in CM:</label>
+                <input type="number" id="heightCM">
+            </div>
+    
+            </br>   
+    
+            <div class="weight">
+                <label for="weightKG">Weight in KG:</label>
+                <input type="number" id="weightKG">
+            </div>
+    
+            </br>
+    
+            <input class="submitBtn" type="submit" value="Calculate">
+
+            <div class="result" style="margin-top:23px"></div>
+        </form>
+    </div>
+
+
+    <div class="guide">
+        <h3>BMI Weight Guide</h3>
+        <div>Under Weight = Less than 18.6</div>
+        <div>Normal Range = 18.6 to 24.9</div>
+        <div>Over Weight = Greater than 24.9</div>
+    </div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
